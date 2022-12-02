@@ -7,8 +7,12 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << "Enter a whole number: ";
+    
+    int x {};
+    std::cin >> x;
+    
+    std::cout << "You entered " << x << '\n';
     return 0;
 }
